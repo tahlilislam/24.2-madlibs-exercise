@@ -1,0 +1,34 @@
+{% extends 'base.html'%}
+{%block tilte%} Madlib Form {%endblock%}
+
+{%block content%} 
+    <h1>Madlibs</h1>
+<div class="form-content">
+
+    <form action="/story">
+        <div class="form-input">
+            <label for="place">place:</label>
+            <input type="text" id="place" name="place">
+        </div>
+        <div class="form-input">
+            <label for="noun">noun:</label>
+            <input type="text" id="noun" name="noun">
+        </div>
+        <div class="form-input">
+            <label for="verb">verb:</label>
+            <input type="text" id="verb" name="verb">
+        </div>
+        <div class="form-input">
+            <label for="adjective">adjective:</label>
+            <input type="text" id="adjective" name="adjective">
+        </div>
+        <div class="form-input">
+            <label for="plural_noun">plural_noun:</label>
+            <input type="text" id="plural_noun" name="plural_noun">      
+        </div>
+        <button>Submit</button>
+
+    </form>
+</div>
+  
+{%endblock%}

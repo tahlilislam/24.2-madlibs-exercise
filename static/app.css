@@ -1,0 +1,12 @@
+body {
+    background-color: aliceblue;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+    padding: 20px;
+}
